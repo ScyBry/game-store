@@ -1,24 +1,25 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Box, Stack } from '@mui/material';
-import { Navbar, SideBar } from '../components/';
+import { Navbar, SideBar, Items } from '../components/';
 import { fetchFromApi } from '../utils/fetchFromApi';
+import { ContactlessOutlined } from '@mui/icons-material';
 
 export default function HomePage() {
   const [items, setItems] = useState([]);
   useEffect(() => {
     fetchFromApi().then((data) => {
-      setItems(data.items);
-      console.log(items);
+      setItems(data);
     });
   }, []);
 
   return (
     <Box sx={{ display: 'flex', alignItems: 'flex-start' }}>
       <SideBar />
-      <Stack direction="row" sx={{ width: '100%' }}>
+      <Box sx={{ width: '100%' }}>
         <Navbar />
-      </Stack>
+        <Items items={items}></Items>
+      </Box>
     </Box>
   );
 }
