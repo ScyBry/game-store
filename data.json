@@ -1,0 +1,156 @@
+[
+  {
+    "id": 0,
+    "name": "Пицца из половинок",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/ca66c9253b1b47ed851ed5fb6e4c53ed_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [26, 30, 34],
+    "category": 4,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 1,
+    "name": "Пепперони с грибами",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/cc7aeede887f4372aa4ed59fd1b96edb_366x366.webp",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": [12, 16, 20],
+    "category": 2,
+    "rating": 5,
+    "countItem": 0
+  },
+  {
+    "id": 2,
+    "name": "Цыпленок карри",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/311ba964c56e4a719c67a4a0625ec62f_366x366.webp",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 0,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 3,
+    "name": "Мясной микс",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/86ada09e21004390bd23e88e523adf3e_366x366.webp",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 18,
+    "category": 1,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 4,
+    "name": "Четыре сезона",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/f05b3d7ed33647a985d383d68a94bf09_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 3,
+    "rating": 5,
+    "countItem": 0
+  },
+  {
+    "id": 5,
+    "name": "Мясной микс",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/86ada09e21004390bd23e88e523adf3e_366x366.webp",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 0,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 6,
+    "name": "Четыре сезона",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/f05b3d7ed33647a985d383d68a94bf09_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 5,
+    "rating": 5,
+    "countItem": 0
+  },
+  {
+    "id": 7,
+    "name": "Пицца из половинок",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/ca66c9253b1b47ed851ed5fb6e4c53ed_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [26, 30, 34],
+    "category": 4,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 8,
+    "name": "Пепперони с грибами",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/cc7aeede887f4372aa4ed59fd1b96edb_366x366.webp",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": [12, 16, 20],
+    "category": 2,
+    "rating": 5,
+    "countItem": 0
+  },
+  {
+    "id": 9,
+    "name": "Цыпленок карри",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/311ba964c56e4a719c67a4a0625ec62f_366x366.webp",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 0,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 10,
+    "name": "Мясной микс",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/86ada09e21004390bd23e88e523adf3e_366x366.webp",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 1,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 11,
+    "name": "Четыре сезона",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/f05b3d7ed33647a985d383d68a94bf09_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 3,
+    "rating": 5,
+    "countItem": 0
+  },
+  {
+    "id": 12,
+    "name": "Мясной микс",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/86ada09e21004390bd23e88e523adf3e_366x366.webp",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 0,
+    "rating": 4,
+    "countItem": 0
+  },
+  {
+    "id": 13,
+    "name": "Четыре сезона",
+    "image": "https://dodopizza-a.akamaihd.net/static/Img/Products/f05b3d7ed33647a985d383d68a94bf09_366x366.webp",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": [18, 22, 26],
+    "category": 5,
+    "rating": 5,
+    "countItem": 0
+  }
+]

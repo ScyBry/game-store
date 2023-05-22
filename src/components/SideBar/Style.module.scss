@@ -1,0 +1,24 @@
+.menu_item {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  svg {
+    color: #8a8a8a;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    transition: 0.3s;
+    margin-right: 24px;
+  }
+  span {
+    transition: 0.3s;
+  }
+  &:hover {
+    span {
+      color: #a100ed;
+    }
+    svg {
+      color: #a100ed;
+    }
+  }
+}
