@@ -4,9 +4,10 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import WalletIcon from '@mui/icons-material/Wallet';
 
 import ComputerIcon from '@mui/icons-material/Computer';
-import HeadphonesIcon from '@mui/icons-material/Headphones';
-import MouseIcon from '@mui/icons-material/Mouse';
-import KeyboardIcon from '@mui/icons-material/Keyboard';
+import MonitorIcon from '@mui/icons-material/Monitor';
+import SettingsInputComponentIcon from '@mui/icons-material/SettingsInputComponent';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import DevicesIcon from '@mui/icons-material/Devices';
 
 export const MENU_ITEMS = [
   {
@@ -28,8 +29,24 @@ export const MENU_ITEMS = [
 ];
 
 export const CATEGORIES = [
-  { name: 'Computer', icon: <ComputerIcon></ComputerIcon> },
-  { name: 'Game Headphones', icon: <HeadphonesIcon></HeadphonesIcon> },
-  { name: 'Mouses', icon: <MouseIcon></MouseIcon> },
-  { name: 'Keyboard', icon: <KeyboardIcon></KeyboardIcon> },
+  {
+    name: 'Ноутбуки',
+    icon: <ComputerIcon></ComputerIcon>,
+  },
+  {
+    name: 'Мониторы',
+    icon: <MonitorIcon></MonitorIcon>,
+  },
+  {
+    name: 'Компоненты',
+    icon: <SettingsInputComponentIcon></SettingsInputComponentIcon>,
+  },
+  {
+    name: 'Аксессуары',
+    icon: <DevicesIcon></DevicesIcon>,
+  },
+  {
+    name: 'Игровые консоли',
+    icon: <SportsEsportsIcon></SportsEsportsIcon>,
+  },
 ];

@@ -1,0 +1,10 @@
+.buttonHover {
+  transition: 0.3s;
+  &:hover {
+    border: 1px solid #da00fe;
+    background-color: #da00fe;
+    svg {
+      color: #fff;
+    }
+  }
+}

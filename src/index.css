@@ -3,6 +3,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #242424;
+  overflow-x: hidden;
 }
 
 code {
