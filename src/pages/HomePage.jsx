@@ -1,15 +1,12 @@
-// import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setLoading } from '../redux/slices/loadingSlice';
 import { useState, useEffect } from 'react';
-import { Box, Stack, Skeleton } from '@mui/material';
-import { Navbar, SideBar, Items } from '../components/';
+import { Box, Stack, Container } from '@mui/material';
+import { Navbar, SideBar, Items, Filter } from '../components/';
 import { fetchFromApi } from '../utils/fetchFromApi';
 
 export default function HomePage() {
   const dispatch = useDispatch();
-  const loading = useSelector((state) => state.loading.loading); // Исправлено получение состояния loading
-
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -21,8 +18,8 @@ export default function HomePage() {
   }, []);
 
   return (
-    <Stack sx={{ flexDirection: 'row' }}>
-      <Box sx={{ height: '92vh' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+      <Box sx={{ height: '100%' }}>
         <SideBar></SideBar>
       </Box>
       <Box
@@ -32,8 +29,11 @@ export default function HomePage() {
         alignItems="center"
         justifyContent="center">
         <Navbar></Navbar>
-        <Items items={items}></Items>
+        <Container maxWidth="none">
+          <Filter></Filter>
+          <Items items={items}></Items>
+        </Container>
       </Box>
-    </Stack>
+    </Box>
   );
 }
